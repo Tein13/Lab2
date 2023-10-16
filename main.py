@@ -37,12 +37,15 @@
 # print(del_rep(num))
     
 # 1
-# def list_reorder(ref_list):
+# def list_reorder(ref_list): # Создаем функцию
 #     first_names = ref_list[0]
 #     last_names = ref_list[1]
 #     result = []
-# 
-#     for i in range(len(first_names)):
-#         result.append([first_names[i], last_names[i]])
-# 
+    
+#     for i in range(len(first_names)): # Создаем цикл
+#         result.append([first_names[i], last_names[i]]) # Добавляем в список result значения имени и фамилии
+    
 #     return result
+# ref_list = [['Александр', 'Анастасия', 'Джеймс', 'Эмма'], ['Смирнов', 'Иванова', 'Смит', 'Джонсон']]
+# print(list_reorder(ref_list))
+
