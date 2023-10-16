@@ -15,19 +15,18 @@
 # print(temp_cat(x)) # Вывод
 
 # 3
-# numlist = 0
-# max_num = 0
-# n = 0
-# def lim_max(nums):
-#     for i in nums:
-#         if nums[n] < limit:
-#             max_num = nums[n]
-#         if nums[n + 1] > nums[n]:
-#             max_num = nums[n + 1]
+# def lim_max(nums, limit): 
+#     max_num = -1 
+# 
+# 
+#     for num in nums: 
+#         if num < limit and num > max_num: 
+#             max_num = num 
 #     return max_num
-# limit = 50
+# 
+# 
 # nums = (10, 20, 30, 40, 50, 60, 70, 80, 100)
-# print(lim_max(nums))
+# limit = 50
 
 # 2
 # def del_rep(num): # Создание функции
