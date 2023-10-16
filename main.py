@@ -37,12 +37,12 @@
 # print(del_rep(num))
     
 # 1
-# n = 1
 # def list_reorder(ref_list):
-#     tuple
-#     name = ref_list[1]
-#     lastname = ref_list[0]
-#     return name, lastname
-# ref_list = ['Александр', 'Анастасия'], ['Смирнов', 'Иванова']
-# print(list_reorder(ref_list))
-
+#     first_names = ref_list[0]
+#     last_names = ref_list[1]
+#     result = []
+# 
+#     for i in range(len(first_names)):
+#         result.append([first_names[i], last_names[i]])
+# 
+#     return result
